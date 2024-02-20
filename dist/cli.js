@@ -141,7 +141,7 @@ var user_agent = {
 var menu = {
 	macos: false,
 	linux: false,
-	windows: false
+	windows: true
 };
 var system_tray = {
 	macos: false,
