@@ -5,7 +5,7 @@ on:
       platform:
         description: 'platform'
         required: true
-        default: 'macos-latest'
+        default: 'windows-latest'
         type: choice
         options:
           - 'windows-latest'
@@ -23,11 +23,11 @@ on:
       width:
         description: '[Width, Optional]'
         required: false
-        default: '1200'
+        default: '1280'
       height:
         description: '[Height, Optional]'
         required: false
-        default: '780'
+        default: '900'
       transparent:
         description: '[Transparent, Optional, MacOS only]'
         required: false
